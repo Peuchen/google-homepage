@@ -7,3 +7,11 @@ img {
 form {
     text-align: center;
 }
+
+input {
+    width: 500px;
+    height: 36px;
+    border: 1px #d3d3d3 solid;
+    border-radius: 20px;
+    background-color: #fff;
+}
