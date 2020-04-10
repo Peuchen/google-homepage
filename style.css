@@ -14,4 +14,9 @@ input {
     border: 1px #d3d3d3 solid;
     border-radius: 20px;
     background-color: #fff;
+    background: url(looking_glass.png) no-repeat scroll 7px 7px;
+    padding-left: 40px;
+    -moz-box-shadow: 1px 3px 8px 1px #ececec;
+    -webkit-box-shadow: 1px 3px 8px 1px #ececec;
+    box-shadow: 1px 3px 8px 1px #ececec;
 }
