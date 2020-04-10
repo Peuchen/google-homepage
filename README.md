@@ -1,3 +1,5 @@
+[This project on GitHub Pages](https://peuchen.github.io/google-homepage/)
+
 I want to create the Google homepage and search result page to develop the following skills: 
     Two ways to move a div around on the page
     Stick a div onto the bottom or top of the page
