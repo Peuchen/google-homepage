@@ -8,7 +8,7 @@ form {
     text-align: center;
 }
 
-.search-field {
+#search-field {
     width: 500px;
     height: 36px;
     border: 1px #d3d3d3 solid;
@@ -18,7 +18,7 @@ form {
     padding-left: 40px;
 }
 
-.search-field:hover {
+#search-field:hover {
     -moz-box-shadow: 1px 3px 8px 1px #ececec;
     -webkit-box-shadow: 1px 3px 8px 1px #ececec;
     box-shadow: 1px 3px 8px 1px #ececec;
