@@ -8,6 +8,22 @@ form {
     text-align: center;
 }
 
+.search-button {
+    background-color: #f3f3f3;
+    color: #777474;
+    width: 120px;
+    height: 35px;
+    margin: 25px 5px 0px 5px;
+    font-family: Arial;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+}
+
+.language {
+    padding: 0px 7px 0px 3px;
+}
+
 #search-field {
     width: 500px;
     height: 36px;
@@ -24,14 +40,9 @@ form {
     box-shadow: 1px 3px 8px 1px #ececec;
 }
 
-.search-button {
-    background-color: #f3f3f3;
-    color: #777474;
-    width: 120px;
-    height: 35px;
-    margin: 25px 5px 0px 5px;
+#language-option {
+    margin-top: 30px;
+    text-align: center;
     font-family: Arial;
-    font-size: 14px;
-    border: none;
-    border-radius: 3px;
+    font-size: 13px;
 }
