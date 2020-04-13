@@ -1,3 +1,11 @@
+nav {
+    text-align: right;
+    font-family: Arial;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+}
+
 img {
     padding: 2em 0 2em 0;
     display: block;
@@ -6,6 +14,10 @@ img {
 
 form {
     text-align: center;
+}
+
+.nav-option {
+    padding: 10px 7px 0px 3px;
 }
 
 .search-button {
