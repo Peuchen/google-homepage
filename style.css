@@ -8,6 +8,17 @@ form {
     text-align: center;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: Arial;
+    font-size: 15px;
+    background-color: #f3f3f3;
+    color: #777474;
+}
+
 .nav-option {
     padding: 5px 15px 0px 0px;
     font-family: Arial;
@@ -23,7 +34,7 @@ form {
     height: 35px;
     margin: 25px 5px 0px 5px;
     font-family: Arial;
-    font-size: 14px;
+    font-size: 15px;
     border: none;
     border-radius: 3px;
 }
@@ -65,4 +76,13 @@ form {
     text-align: center;
     font-family: Arial;
     font-size: 13px;
+}
+
+#current-country {
+    padding: 5px 20px 5px 20px;
+}
+
+#footer-links {
+    padding: 5px 20px 5px 20px;
+    display: flex;
 }
