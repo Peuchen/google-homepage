@@ -1,9 +1,7 @@
 nav {
-    text-align: right;
-    font-family: Arial;
-    font-size: 13px;
-    text-decoration: none;
-    color: #000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 form {
@@ -11,7 +9,11 @@ form {
 }
 
 .nav-option {
-    padding: 10px 7px 0px 3px;
+    padding: 5px 15px 0px 0px;
+    font-family: Arial;
+    font-size: 13px;
+    text-decoration-line: none;
+    color: #000;
 }
 
 .search-button {
@@ -34,7 +36,6 @@ form {
 #small-logo {
     width: 32px;
     height: 32px;
-    display: block;
 }
 
 #main-logo {
