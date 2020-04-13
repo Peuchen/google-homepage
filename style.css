@@ -43,6 +43,20 @@ footer {
     border-radius: 3px;
 }
 
+.search-button:hover {
+    background-color: #f8f8f8;
+    color: #000;
+    border: 1px;
+    border-style: solid;
+    border-color: #f3f3f3;
+}
+
+.search-button:hover {
+    -moz-box-shadow: 0px 0px 1px 1px #cecece;
+    -webkit-box-shadow: 0px 0px 1px 1px #cecece;
+    box-shadow: 0px 0px 1px 1px #cecece;
+}
+
 .language {
     padding: 0px 7px 0px 3px;
     text-decoration: none;
