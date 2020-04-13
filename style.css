@@ -27,6 +27,10 @@ footer {
     color: #000;
 }
 
+.nav-option:hover {
+    text-decoration-line: underline;
+}
+
 .search-button {
     background-color: #f3f3f3;
     color: #777474;
@@ -42,6 +46,20 @@ footer {
 .language {
     padding: 0px 7px 0px 3px;
     text-decoration: none;
+}
+
+.language:hover {
+    text-decoration-line: underline;
+}
+
+.footer-link {
+    text-decoration-line: none;
+    color: #777474;
+    padding-right: 17px;
+}
+
+.footer-link:hover {
+    text-decoration-line: underline;
 }
 
 #small-logo {
@@ -79,10 +97,17 @@ footer {
 }
 
 #current-country {
-    padding: 5px 20px 5px 20px;
+    padding: 12px 30px 12px 30px;
+    border-top: 1px;
+    border-top-style: solid;
+    border-color: #EAEAEA;
 }
 
-#footer-links {
-    padding: 5px 20px 5px 20px;
+#links-section {
+    padding: 12px 13px 12px 30px;
+    border-top: 1px;
+    border-top-style: solid;
+    border-color: #EAEAEA;
     display: flex;
+    justify-content: space-between;
 }
