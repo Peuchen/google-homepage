@@ -22,6 +22,7 @@ form {
 
 .language {
     padding: 0px 7px 0px 3px;
+    text-decoration: none;
 }
 
 #search-field {
