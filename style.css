@@ -6,12 +6,6 @@ nav {
     color: #000;
 }
 
-img {
-    padding: 2em 0 2em 0;
-    display: block;
-    margin: auto;
-}
-
 form {
     text-align: center;
 }
@@ -35,6 +29,18 @@ form {
 .language {
     padding: 0px 7px 0px 3px;
     text-decoration: none;
+}
+
+#small-logo {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+#main-logo {
+    padding: 2em 0 2em 0;
+    display: block;
+    margin: auto;
 }
 
 #search-field {
