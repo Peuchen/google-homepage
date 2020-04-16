@@ -4,7 +4,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(25, 1fr);
     grid-template-rows: 3fr 2fr;
-    border-bottom: 1px solid #d3d3d3
+    border-bottom: 1px solid #d3d3d3;
 }
 
 form {
@@ -80,6 +80,7 @@ footer {
 }
 
 #main-logo {
+    width: 125px;
     padding: 1em 0 0 1em;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -88,13 +89,15 @@ footer {
 }
 
 #search-field {
-    height: 36px;
+    margin: 1em 0 0 1em;
+    padding-left: 20px;
+    height: 40px;
     border: 1px #d3d3d3 solid;
-    border-radius: 20px;
+    border-radius: 40px;
     background-color: #fff;
-    background: url(looking_glass.png) no-repeat scroll right center;
-    padding-left: 40px;
-    padding: 1em 0 0 1em;
+    background: url(looking_glass.png) no-repeat scroll 98% 50%;
+    font-size: 15px;
+    font-family: Arial;
     grid-column-start: 2;
     grid-column-end: 11;
     grid-row-start: 1;
@@ -110,6 +113,7 @@ footer {
 #nav-option-logo {
     width: 32px;
     height: 32px;
+    padding: 1em 0 0 1em;
     grid-column-start: 25;
     grid-column-end: 26;
     grid-row-start: 1;
@@ -117,6 +121,10 @@ footer {
 }
 
 #nav-option-all {
+    color: #777474;
+    text-decoration-line: none;
+    font-family: Arial;
+    font-size: 14px;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
