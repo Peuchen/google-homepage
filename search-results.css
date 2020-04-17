@@ -1,6 +1,21 @@
+h2 {
+    font-size: 21px;
+    font-family: Arial;
+    font-weight: 500;
+    text-decoration-line: none;
+    color: #1A0DB5;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+h2:hover {
+    text-decoration-line: underline;
+}
+
 nav {
-    top: 0;
-    height: 10%;
+    position: absolute;
+    left: 0;
+    height: 120px;
     display: grid;
     grid-template-columns: repeat(25, 1fr);
     grid-template-rows: 3fr 2fr;
@@ -11,9 +26,14 @@ form {
     text-align: center;
 }
 
+main {
+    width: 630px;
+    padding-top: 120px;
+    padding-left: 160px;
+}
+
 footer {
-    position: fixed;
-    bottom: 0;
+    position: absolute;
     left: 0;
     width: 100%;
     font-family: Arial;
@@ -22,51 +42,22 @@ footer {
     color: #777474;
 }
 
-.nav-option {
-    padding: 5px 15px 0px 0px;
-    font-family: Arial;
-    font-size: 13px;
-    text-decoration-line: none;
-    color: #000;
+.result {
+    margin: 35px 0 35px 0;
 }
 
-.nav-option:hover {
-    text-decoration-line: underline;
-}
-
-.search-button {
-    background-color: #f3f3f3;
-    color: #777474;
-    width: 120px;
-    height: 35px;
-    margin: 25px 5px 0px 5px;
+.website-crumbs {
+    padding-bottom: 0;
+    margin-bottom: 1px;
     font-family: Arial;
     font-size: 15px;
-    border: none;
-    border-radius: 3px;
+    color: #222121;
 }
-
-.search-button:hover {
-    background-color: #f8f8f8;
-    color: #000;
-    border: 1px;
-    border-style: solid;
-    border-color: #f3f3f3;
-}
-
-.search-button:hover {
-    -moz-box-shadow: 0px 0px 1px 1px #cecece;
-    -webkit-box-shadow: 0px 0px 1px 1px #cecece;
-    box-shadow: 0px 0px 1px 1px #cecece;
-}
-
-.language {
-    padding: 0px 7px 0px 3px;
-    text-decoration: none;
-}
-
-.language:hover {
-    text-decoration-line: underline;
+.website-description {
+    font-size: 15px;
+    font-family: Arial;
+    color: rgb(81, 83, 87);
+    margin-top: 0;
 }
 
 .footer-link {
@@ -230,22 +221,23 @@ footer {
     grid-row-end: 3;
 }
 
-#language-option {
-    margin-top: 30px;
-    text-align: center;
+#results-number {
+    color: #777474;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    font-size: 15px;
     font-family: Arial;
-    font-size: 13px;
 }
 
 #current-country {
-    padding: 12px 30px 12px 30px;
+    padding: 12px 30px 12px 160px;
     border-top: 1px;
     border-top-style: solid;
     border-color: #EAEAEA;
 }
 
 #links-section {
-    padding: 12px 13px 12px 30px;
+    padding: 12px 13px 12px 160px;
     border-top: 1px;
     border-top-style: solid;
     border-color: #EAEAEA;
