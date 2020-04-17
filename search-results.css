@@ -81,7 +81,7 @@ footer {
 
 #main-logo {
     width: 125px;
-    padding: 1em 0 0 1em;
+    padding: 20px 0 0 1em;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -89,7 +89,7 @@ footer {
 }
 
 #search-field {
-    margin: 1em 0 0 1em;
+    margin: 1em 0 1em 1em;
     padding-left: 20px;
     height: 40px;
     border: 1px #d3d3d3 solid;
@@ -121,10 +121,12 @@ footer {
 }
 
 #nav-option-all {
-    color: #777474;
+    color: #1A73E8;
     text-decoration-line: none;
     font-family: Arial;
-    font-size: 14px;
+    font-size: 13px;
+    padding: 15px 0 0 30px;
+    border-bottom: 4px solid #1A73E8;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -132,6 +134,13 @@ footer {
 }
 
 #nav-option-news {
+    color: #777474;
+    text-decoration-line: none;
+    font-family: Arial;
+    font-size: 13px;
+    position: relative;
+    top: 30%;
+    left: 20%;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -139,6 +148,13 @@ footer {
 }
 
 #nav-option-maps {
+    color: #777474;
+    text-decoration-line: none;
+    font-family: Arial;
+    font-size: 13px;
+    position: relative;
+    top: 30%;
+    left: 30%;
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 2;
@@ -146,6 +162,13 @@ footer {
 }
 
 #nav-option-videos {
+    color: #777474;
+    text-decoration-line: none;
+    font-family: Arial;
+    font-size: 13px;
+    position: relative;
+    top: 30%;
+    left: 20%;
     grid-column-start: 5;
     grid-column-end: 6;
     grid-row-start: 2;
@@ -153,6 +176,13 @@ footer {
 }
 
 #nav-option-shopping {
+    color: #777474;
+    text-decoration-line: none;
+    font-family: Arial;
+    font-size: 13px;
+    position: relative;
+    top: 30%;
+    left: 20%;  
     grid-column-start: 6;
     grid-column-end: 7;
     grid-row-start: 2;
@@ -160,6 +190,13 @@ footer {
 }
 
 #nav-option-more {
+    color: #777474;
+    text-decoration-line: none;
+    font-family: Arial;
+    font-size: 13px;
+    position: relative;
+    top: 30%;
+    left: 30%;
     grid-column-start: 7;
     grid-column-end: 8;
     grid-row-start: 2;
@@ -167,6 +204,12 @@ footer {
 }
 
 #nav-option-settings {
+    color: #777474;
+    text-decoration-line: none;
+    font-family: Arial;
+    font-size: 13px;
+    position: relative;
+    top: 30%;
     grid-column-start: 9;
     grid-column-end: 10;
     grid-row-start: 2;
@@ -174,6 +217,13 @@ footer {
 }
 
 #nav-option-tools {
+    color: #777474;
+    text-decoration-line: none;
+    font-family: Arial;
+    font-size: 13px;
+    position: relative;
+    top: 30%;
+    left: 20%;
     grid-column-start: 10;
     grid-column-end: 11;
     grid-row-start: 2;
